@@ -17,6 +17,7 @@ table.scrolled-table th {
     border: 1px solid teal;
     background-color: teal;
     color: white;
+    text-align: left;
 }
 table.scrolled-table td, 
 table.scrolled-table th {
@@ -53,6 +54,7 @@ table.scrolled-table tr:nth-child(odd) {
     }
     table.scrolled-table.responsive-scrolled thead tr th {
         flex: 1;
+        text-align: center;
     }
     table.scrolled-table.responsive-scrolled thead tr th:last-child {
         border-radius: 0 0 0 5px;
@@ -108,6 +110,7 @@ table.scrolled-table.scrolled thead tr {
 }
 table.scrolled-table.scrolled thead tr th {
     flex: 1;
+    text-align: center;
 }
 table.scrolled-table.scrolled thead tr th:last-child {
     border-radius: 0 0 0 5px;
@@ -137,4 +140,7 @@ table.scrolled-table.scrolled tr:nth-child(even) td {
 }
 table.scrolled-table.scrolled tr:nth-child(odd) td {
     border: 1px solid white;
+}
+.scrolled-container {
+	position: relative
 }
